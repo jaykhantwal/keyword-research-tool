@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Free keyword idea generator for SEO, bloggers, creators and website owners around the world.">
+<title>Global Keyword Finder — Free SEO Ideas</title>
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--ink:#182235;--muted:#667085;--line:#e4e8f0;--brand:#5546e8;--brand2:#786cf4;--soft:#eeecff;--good:#087f5b}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
+header{padding:24px 18px 64px;background:radial-gradient(circle at 80% 15%,#8579ff 0,transparent 32%),linear-gradient(125deg,#171b3c,#4136a6 70%,#5d52d9);color:white}
+nav,.wrap{max-width:1080px;margin:auto}nav{display:flex;align-items:center;justify-content:space-between;gap:12px}.logo{font-weight:850;letter-spacing:-.5px;font-size:19px}.pill{font-size:12px;border:1px solid #ffffff55;padding:6px 10px;border-radius:99px;color:#fff}
+.hero{max-width:780px;margin:45px auto 0;text-align:center}.hero h1{font-size:clamp(32px,5vw,52px);line-height:1.08;letter-spacing:-1.7px;margin:0 0 16px}.hero p{color:#e4e3ff;margin:0 auto 24px;max-width:620px}
+.search{background:white;padding:8px;border-radius:16px;display:flex;gap:8px;box-shadow:0 18px 45px #11143b40}.search input{flex:1;min-width:0;border:0;outline:0;padding:14px;font:inherit;color:var(--ink)}button,select{font:inherit;cursor:pointer}button{border:0;border-radius:10px;background:var(--brand);color:white;font-weight:700;padding:12px 17px}button:hover{filter:brightness(1.06)}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #aaa2ff;outline-offset:2px}
+.options{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:14px}.options label{display:flex;align-items:center;gap:7px;color:#f0efff;font-size:13px}.options select{border:1px solid #ffffff50;background:#ffffff12;color:white;padding:7px 9px;border-radius:8px}.options option{color:#222}
+main{max-width:1080px;margin:-34px auto 0;padding:0 18px 45px}.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:0 8px 28px #24314b0b;padding:22px;margin-bottom:18px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.stat{background:#fafaff;border:1px solid var(--line);border-radius:12px;padding:15px}.stat b{display:block;font-size:25px;letter-spacing:-.5px}.stat span{font-size:12px;color:var(--muted)}.sectionhead{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:15px}.sectionhead h2{margin:0;font-size:20px}.sub{font-size:13px;color:var(--muted);margin:4px 0 0}.tabs{display:flex;gap:7px;flex-wrap:wrap}.tab{background:#f1f2f8;color:#485166;padding:9px 12px;font-size:13px}.tab.active{background:var(--soft);color:var(--brand)}.tablewrap{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:14px}th{text-align:left;color:var(--muted);font-weight:600;font-size:12px;background:#fafbfe}th,td{padding:12px 10px;border-bottom:1px solid var(--line);white-space:nowrap}td:first-child{white-space:normal;min-width:220px}.copy{padding:7px 10px;font-size:12px;background:#f0efff;color:var(--brand)}.empty{text-align:center;padding:28px;color:var(--muted)}.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{background:#f2f3fa;border:1px solid var(--line);border-radius:99px;padding:7px 11px;font-size:13px}.bottom{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.secondary{background:#eef0f6;color:#283249}.note{font-size:12px;color:var(--muted);margin-top:14px}.footer{text-align:center;color:var(--muted);font-size:12px;padding:8px 18px 30px}
+@media(max-width:620px){header{padding-bottom:58px}.hero{margin-top:36px}.search{flex-direction:column}.search input{padding:12px}.search button{width:100%}.stats{grid-template-columns:1fr}.stat{display:flex;justify-content:space-between;align-items:center}.stat b{font-size:20px}.panel{padding:16px}main{padding-left:12px;padding-right:12px}}
+</style>
+</head>
+<body>
+<header>
+  <nav><div class="logo">✦ Global Keyword Finder</div><span class="pill">FREE · NO SIGN-UP</span></nav>
+  <div class="hero">
+    <h1>Find your next<br>winning keyword.</h1>
+    <p>Generate keyword ideas, questions and long-tail phrases for your blog, website or next content project.</p>
+    <form id="searchForm" class="search">
+      <input id="keyword" maxlength="120" placeholder="Try: best running shoes" aria-label="Enter a keyword" required>
+      <button type="submit">Find keyword ideas ↗</button>
+    </form>
+    <div class="options">
+      <label>Country
+        <select id="country" aria-label="Target country">
+          <option value="Global">🌍 Global</option><option value="United States">🇺🇸 United States</option><option value="United Kingdom">🇬🇧 United Kingdom</option><option value="India">🇮🇳 India</option><option value="Canada">🇨🇦 Canada</option><option value="Australia">🇦🇺 Australia</option>
+        </select>
+      </label>
+      <label>Language
+        <select id="language" aria-label="Keyword language"><option value="English">English</option><option value="Hindi">Hindi</option><option value="Spanish">Spanish</option></select>
+      </label>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="panel">
+    <div class="stats">
+      <div class="stat"><span>Keyword ideas generated</span><b id="total">0</b></div>
+      <div class="stat"><span>Target market</span><b id="market" style="font-size:17px">Global</b></div>
+      <div class="stat"><span>Estimated cost</span><b style="color:var(--good);font-size:19px">$0</b></div>
+    </div>
+  </section>
+  <section class="panel">
+    <div class="sectionhead">
+      <div><h2>Your keyword ideas</h2><p class="sub" id="resultCaption">Enter a keyword above to get started.</p></div>
+      <div class="tabs" role="tablist" aria-label="Keyword type">
+        <button class="tab active" data-kind="all" type="button">All ideas</button>
+        <button class="tab" data-kind="related" type="button">Related</button>
+        <button class="tab" data-kind="questions" type="button">Questions</button>
+        <button class="tab" data-kind="longtail" type="button">Long-tail</button>
+      </div>
+    </div>
+    <div id="results" class="empty">🔎 Your keyword ideas will appear here.</div>
+    <div class="bottom">
+      <button id="copyAll" type="button" class="secondary" disabled>Copy all keywords</button>
+      <button id="download" type="button" disabled>Download CSV ↓</button>
+    </div>
+    <p class="note">Important: Ideas are generated locally from your phrase and common search modifiers. Search volume, CPC, ranking difficulty and live Google suggestions are not fetched or estimated by this demo.</p>
+  </section>
+  <section class="panel">
+    <div class="sectionhead"><div><h2>How to use this tool</h2><p class="sub">A simple starting point for content planning.</p></div></div>
+    <div class="chips"><span class="chip">1. Enter a seed keyword</span><span class="chip">2. Choose a market</span><span class="chip">3. Explore ideas</span><span class="chip">4. Export your list</span></div>
+    <p class="note">No account, server, API key or paid service is needed for this version. Your searches stay in this browser session.</p>
+  </section>
+</main>
+<div class="footer">Global Keyword Finder · Free starter tool · Built for creators worldwide</div>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const state = { keyword: '', rows: [], kind: 'all' };
+  const relatedMods = ['best','top','free','easy','beginner','advanced','online','for beginners','for small businesses','guide','tips','tools','examples','ideas','near me','vs','alternatives'];
+  const questionMods = ['what is','how to use','how does','why use','when to use','where to find','which is the best','can you use','is it worth using','how much does'];
+  const longMods = ['for beginners','for small businesses','for students','for kids','at home','step by step','on a budget','for 2026','with examples','without experience','for professionals','that actually work'];
+  const clean = s => s.replace(/\s+/g,' ').trim();
+  function unique(arr){return [...new Set(arr.map(clean).filter(Boolean))]}
+  function generate(seed) {
+    const s = clean(seed);
+    const related = unique([...relatedMods.map(m => `${m} ${s}`), ...relatedMods.map(m => `${s} ${m}`)]);
+    const questions = unique(questionMods.map(m => `${m} ${s}`));
+    const longtail = unique(longMods.map(m => `${s} ${m}`));
+    const rows = [];
+    related.forEach(k=>rows.push({keyword:k,type:'Related'}));
+    questions.forEach(k=>rows.push({keyword:k,type:'Question'}));
+    longtail.forEach(k=>rows.push({keyword:k,type:'Long-tail'}));
+    return rows;
+  }
+  function visibleRows(){return state.kind==='all'?state.rows:state.rows.filter(r=>r.type.toLowerCase()===(state.kind==='questions'?'question':state.kind));}
+  function render(){
+    const rows=visibleRows();
+    $('total').textContent=state.rows.length;
+    $('market').textContent=$('country').value;
+    $('resultCaption').textContent=state.keyword ? `${rows.length} ideas shown for “${state.keyword}” · ${$('language').value}` : 'Enter a keyword above to get started.';
+    $('copyAll').disabled=!rows.length; $('download').disabled=!rows.length;
+    if(!rows.length){$('results').className='empty';$('results').textContent='🔎 Enter a keyword above to generate ideas.';return;}
+    $('results').className='tablewrap';
+    const table=document.createElement('table');
+    table.innerHTML='<thead><tr><th>Keyword idea</th><th>Type</th><th>Action</th></tr></thead>';
+    const tbody=document.createElement('tbody');
+    rows.forEach(r=>{
+      const tr=document.createElement('tr');
+      const td1=document.createElement('td'); td1.textContent=r.keyword;
+      const td2=document.createElement('td'); td2.textContent=r.type;
+      const td3=document.createElement('td'); const b=document.createElement('button');b.type='button';b.className='copy';b.textContent='Copy';
+      b.addEventListener('click',()=>copyText(r.keyword,b));td3.appendChild(b);
+      tr.append(td1,td2,td3);tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);$('results').replaceChildren(table);
+  }
+  async function copyText(text,button){
+    try{await navigator.clipboard.writeText(text); const old=button.textContent;button.textContent='Copied!';setTimeout(()=>button.textContent=old,1000);}
+    catch(e){const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();button.textContent='Copied!';setTimeout(()=>button.textContent='Copy',1000);}
+  }
+  $('searchForm').addEventListener('submit',e=>{
+    e.preventDefault();const k=clean($('keyword').value);if(!k)return;
+    state.keyword=k;state.rows=generate(k);state.kind='all';
+    document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.kind==='all'));
+    render();
+  });
+  document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
+    state.kind=b.dataset.kind;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));render();
+  }));
+  $('country').addEventListener('change',render);$('language').addEventListener('change',render);
+  $('copyAll').addEventListener('click',()=>copyText(visibleRows().map(r=>r.keyword).join('\n'),$('copyAll')));
+  $('download').addEventListener('click',()=>{
+    const rows=visibleRows();const quote=s=>'"'+String(s).replace(/"/g,'""')+'"';
+    const csv='Keyword,Type,Target market,Language\r\n'+rows.map(r=>[r.keyword,r.type,$('country').value,$('language').value].map(quote).join(',')).join('\r\n');
+    const blob=new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8;'});
+    const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='keyword-ideas.csv';a.click();URL.revokeObjectURL(url);
+  });
+})();
+</script>
+</body>
+</html>
